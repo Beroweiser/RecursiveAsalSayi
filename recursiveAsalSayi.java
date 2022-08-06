@@ -21,5 +21,6 @@ public class recursiveAsalSayi {
         int a = scan.nextInt();
         String str = isPrime(a, 2) ? " sayısı ASALDIR !" : " sayısı ASAL değildir !";
         System.out.println(a + str);
+        scan.close();
     }
 }
